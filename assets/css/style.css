@@ -4,6 +4,58 @@
     box-sizing: border-box;
 }
 
+/* HERO STYLES */
+.hero {
+    height: 600px;
+    background-image: url("../images/hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-form{
+    color: #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    border: #024e76 solid 3px;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* END HERO STYLES */
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
@@ -59,4 +111,8 @@ footer div{
     float: right;
     line-height: 1.5;
     text-align: right;
+}
+
+section{
+    padding: 60px;
 }
